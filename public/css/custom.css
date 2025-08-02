@@ -421,6 +421,57 @@
             text-align: center;
             margin: 3rem 0;
         }
+        
+        .mobile-nav-toggle {
+    display: none; /* Oculto por defecto en pantallas grandes */
+    font-size: 1.8rem;
+    background: none;
+    border: none;
+    color: #333;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+/* Estilos para pantallas pequeñas (móviles) */
+@media (max-width: 768px) {
+    .nav-menu {
+        display: none; /* El menú horizontal se oculta */
+        flex-direction: column;
+        position: absolute;
+        top: 70px; /* Justo debajo del header */
+        left: 0;
+        width: 100%;
+        background: white;
+        padding: 1rem 0;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    }
+
+    .nav-menu.active {
+        display: flex; /* Se muestra cuando tiene la clase 'active' */
+    }
+
+    .nav-menu ul {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        gap: 0;
+    }
+
+    .nav-menu li {
+        width: 100%;
+    }
+
+    .nav-menu a {
+        display: block;
+        padding: 1rem 0;
+        width: 100%;
+        border-bottom: 1px solid #eee;
+    }
+
+    .mobile-nav-toggle {
+        display: block; /* El botón hamburguesa se hace visible */
+    }
+}
 
         /* Responsive */
         @media (max-width: 768px) {
