@@ -97,18 +97,22 @@ body {
     padding-top: 80px; /* Para compensar el header fijo */
 }
 
-.logo-placeholder {
+/* Logo en el header */
+.logo-img {
     width: 40px;
     height: 40px;
-    background: linear-gradient(45deg, #e91e63, #4caf50);
-    border-radius: 50%;
     margin-right: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    font-size: 1.2rem;
+    border-radius: 50%; /* Si quieres que sea circular */
+    object-fit: cover;
 }
+
+/* Si prefieres el logo cuadrado, usa esto en su lugar:
+.logo-img {
+    height: 40px;
+    width: auto;
+    margin-right: 10px;
+    object-fit: contain;
+} */
 
 /* Main Content */
 .section {
