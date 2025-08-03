@@ -1,18 +1,23 @@
+
 <header class="header">
     <div class="nav-container">
         <a href="/" class="logo">
-            <img src="/images/logo-psicoimpulso.png" alt="Logo PsicoImpulso" style="height: 40px; vertical-align: middle; margin-right: 10px;">
-            <span style="vertical-align: middle;">PsicoImpulso Laboral</span>
+            <div class="logo-placeholder">P</div>
+            PsicoImpulso Laboral
         </a>
-
+        
+        <!-- Botón hamburguesa para móvil -->
+        <button class="mobile-nav-toggle">☰</button>
+        
+        <!-- Menú de navegación -->
         <nav class="nav-menu">
             <ul>
-                {{- range .Site.Menus.main -}}
-                <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-                {{- end -}}
+                <li><a href="/">Inicio</a></li>
+                <li><a href="/servicios/">Servicios</a></li>
+                <li><a href="/sobre-mi/">Sobre Mí</a></li>
+                <li><a href="/recursos/">Recursos</a></li>
+                <li><a href="/contacto/">Contacto</a></li>
             </ul>
         </nav>
-        
-        <button class="mobile-nav-toggle" aria-label="Abrir menú">☰</button>
     </div>
 </header>
