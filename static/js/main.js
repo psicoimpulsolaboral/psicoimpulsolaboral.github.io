@@ -22,7 +22,15 @@ document.addEventListener('DOMContentLoaded', function () {
 
     if (mobileNavToggle && navMenu) {
         mobileNavToggle.addEventListener('click', function () {
+            // Alterna la clase 'active' en el menú para mostrarlo/ocultarlo
             navMenu.classList.toggle('active');
+
+            // Opcional: Cambia el ícono de hamburguesa a una 'X'
+            if (navMenu.classList.contains('active')) {
+                mobileNavToggle.innerHTML = '✕';
+            } else {
+                mobileNavToggle.innerHTML = '☰';
+            }
         });
     }
 });
