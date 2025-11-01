@@ -22,7 +22,7 @@ type: "landing"  # <--- ¡AÑADE ESTA LÍNEA!
 <span style="font-size: 2.5rem; line-height: 1; margin-bottom: 0.5rem;">📧</span>
 <span style="font-size: 1.1rem;">carolinazuttionj@gmail.com</span>
 </a>
-<a href="https://www.instagram.com/psicoimpulsolaboral/?hl=es" class="social-link" target="_blank" rel="noopener noreferrer">
+<a href="https://www.instagram.com/psicoimpulsopsp/?igsh=ZXdyc3E2aDBrbTdv#" class="social-link" target="_blank" rel="noopener noreferrer">
 <span style="font-size: 2.5rem; line-height: 1; margin-bottom: 0.5rem;">📸</span>
 <span style="font-size: 1.1rem;">@psicoimpulso.laboral</span>
 </a>
