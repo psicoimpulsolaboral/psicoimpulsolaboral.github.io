@@ -40,7 +40,7 @@ type: "landing"  # <--- ¡AÑADE ESTA LÍNEA!
             </div>
         </div>
         <div style="text-align: center; margin: 3rem 0;">
-            <p style="font-size: 1.2rem; color: #666; margin-bottom: 2rem;">✨Si alguna de estas señales te resuena, podemos trabajarlo juntos. Muchas veces, un diagnóstico claro y una intervención puntual son todo lo que un equipo necesita para avanzar.</p>    
+            <p style="font-size: 1.2rem; color: #666; margin-bottom: 2rem;">✨   Si alguna de estas señales te resuena, podemos trabajarlo juntos. Muchas veces, un diagnóstico claro y una intervención puntual son todo lo que un equipo necesita para avanzar.</p>    
             <a href="#" class="btn btn-primary" onclick="showSection('servicios')">Explorá cómo te puedo ayudar</a>
         </div>
     </section>
